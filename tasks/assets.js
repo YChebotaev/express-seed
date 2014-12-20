@@ -1,0 +1,1 @@
+gulp.task('assets',['templates', 'css', 'js']);
