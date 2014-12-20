@@ -1,0 +1,4 @@
+--require ./boot.js
+--require ./mocha.js
+--require chai
+--ui bdd

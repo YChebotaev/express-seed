@@ -1,0 +1,30 @@
+{
+  "name": "express-seed",
+  "private": true,
+  "dependencies": {
+    "config": "~1.9.0",
+    "rethinkdb": "~1.15.0-0",
+    "bluebird": "~2.4.0",
+    "lodash": "~2.4.1",
+    "rethinkdb-fake-connection": "git://github.com/YChebotaev/rethinkdb-fake-connection",
+    "all-in": "~0.2.0",
+    "passport": "~0.2.1",
+    "cookie-session": "~1.1.0",
+    "bunyan": "~1.2.3",
+    "express": "~4.10.6",
+    "jade": "~1.8.2"
+  },
+  "devDependencies": {
+    "browserify": "~7.0.3",
+    "gulp": "~3.8.10",
+    "vinyl-source-stream": "~1.0.0",
+    "gulp-stylus": "~1.3.4",
+    "gulp-jade": "~0.10.0",
+    "chai": "~1.10.0",
+    "mocha": "~2.0.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  }
+}
